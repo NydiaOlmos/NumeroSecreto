@@ -42,7 +42,7 @@ function reiniciarJuego(){
 
 function generarNumeroAleatorio(){
     let numeroGenerado = Math.floor(Math.random() * maximo) + minimo; // Generamos un número aleatorio entre 1 y 10
-    console.log(listaNumerosSorteados)
+    // console.log(listaNumerosSorteados);
     if (listaNumerosSorteados.length == maximo){
         habilitaBoton('#botonVerificar', true); // Deshabilitamos el botón de verificar
         asignarTextoElemento('p', 'Ya se sortearon todos los números posibles.');
