@@ -37,7 +37,7 @@ function reiniciarJuego(){
     habilitaBoton('#botonVerificar', false); // Habilitamos el botón de verificar
     limpiarCampo(); // Limpiamos el input
     condicionesInciales(); // Restablecemos las condiciones
-    // console.log(listaNumerosSorteados)
+    console.log(listaNumerosSorteados)
     return;
 }
 
