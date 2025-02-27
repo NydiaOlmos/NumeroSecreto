@@ -52,7 +52,7 @@ function condicionesInciales(){
 function limpiarCampo(){
     let input = document.getElementById('inputNumeroUsuario');
     input.value = '';
-    input.focus;
+    input.focus();
     return;
 }
 
